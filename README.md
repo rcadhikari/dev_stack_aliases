@@ -15,4 +15,4 @@ instead, just type ```gg```
 
 
 #### Tips
-To view the list of alias, type ```alias --```
+To view the list of aliases, type ```alias --```
