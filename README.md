@@ -10,4 +10,5 @@ List of shortcut/aliases commands to to minimise the keystrokes
 
 Now, you can open the Git Bash Terminal and try to use the listed shortcut from the .bash_profile file which will make your life easier.
 
-For example, to run gulp and gulp watch, just type ```gg```
+For example, to run ```gulp and gulp watch``` 
+instead, just type ```gg```
