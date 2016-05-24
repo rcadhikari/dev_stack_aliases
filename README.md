@@ -12,3 +12,7 @@ Now, you can open the Git Bash Terminal and try to use the listed shortcut from 
 
 For example, to run ```gulp and gulp watch``` 
 instead, just type ```gg```
+
+
+#### Tips
+To view the list of alias, type ```alias --```
