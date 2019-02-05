@@ -1,8 +1,9 @@
 #Composer
-alias c="composer"
 alias cda="composer dump-autoload"
 alias ci="composer install"
 alias cu="composer update"
+alias cc="composer clearcache"
+alias cr="composer require"
 
 # Bower
 alias b="bower"
@@ -16,6 +17,8 @@ alias gg="gulp && gulp watch"
 
 # NPM
 alias ni="npm install"
+alias ngs="ng serve --disable-host-check --ssl"
+alias ngsp="ng serve --disable-host-check --ssl --prod --aol"
 
 # Laravel
 alias pa="php artisan"
@@ -31,7 +34,12 @@ alias pades="php artisan vi-kon:db-exporter:seed"
 alias pademi="php artisan vi-kon:db-exporter:migrate"
 alias padem="php artisan vi-kon:db-exporter:models"
 
+# PHP Unit Test
+alias pamt="php artisan make:test"
 alias pu="phpunit"
+
+# Clear application cache
+alias pac="php artisan clear-compiled;php artisan cache:clear; php artisan config:cache; php artisan config:clear; php artisan optimize;"
 
 # Laravel Custom
 alias dat="php artisan app:droptables"
