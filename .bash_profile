@@ -37,11 +37,43 @@ alias pu="phpunit"
 alias dat="php artisan app:droptables"
 
 # Git
+alias gb="git branch"
 alias ga="git add"
 alias gaa="git add ."
 alias gca="git commit -m"
 alias gc="git commit -am"
+alias gca="git commit --amend"
 alias gp="git push"
+alias gpo="git push --set-upstream origin"
 alias gs="git status"
 alias gl="git log"
+alias gck="git checkout"
+alias gmn="git merge --no-ff"
+alias gbd="git branch -d"
+alias gbD="git branch -D"
+
 alias grh="git reset --hard"
+#git reset --hard 39aef67da62d8ee502daaaa9e6ae317162082db4
+
+# Permission Command
+alias cR="chmod -R"
+alias c7="chmod -R 777"
+
+#docker aliases
+alias dm="docker-machine"
+alias dl="docker logs"
+alias dps="docker ps"
+alias dsa='docker kill $(docker ps -q)'
+alias dock-start='docker-machine start default'
+alias dock-restart='docker-machine restart default'
+alias dock-init='eval "$(docker-machine env default)"'
+alias dock-up='docker-compose up -d apache2 mysql redis'
+alias dock-bash='winpty docker exec -it --user=laradock laradock_workspace_1 bash'
+alias dock-down='docker-compose down'
+alias db='docker exec -it'
+alias dock-env='docker-machine env'
+alias dm-rm='docker-machine rm'
+alias dm-new="docker-machine create --driver virtualbox"
+alias dm-img='docker images'
+alias dm-rmi='docker rmi'
+alias bash-update='source ~/.bash_profile'
